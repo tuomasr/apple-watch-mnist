@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B732A5F1F252E0000192692 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B732A5E1F252E0000192692 /* AppDelegate.swift */; };
+		8B732A611F252E0000192692 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B732A601F252E0000192692 /* ViewController.swift */; };
+		8B732A641F252E0000192692 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B732A621F252E0000192692 /* Main.storyboard */; };
+		8B732A661F252E0000192692 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B732A651F252E0000192692 /* Assets.xcassets */; };
+		8B732A691F252E0000192692 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B732A671F252E0000192692 /* LaunchScreen.storyboard */; };
+		8B732A741F252E0100192692 /* Tuomas_MNISTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B732A731F252E0100192692 /* Tuomas_MNISTTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B732A701F252E0100192692 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B732A531F252E0000192692 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B732A5A1F252E0000192692;
+			remoteInfo = "Tuomas-MNIST";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B732A5B1F252E0000192692 /* Tuomas-MNIST.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tuomas-MNIST.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B732A5E1F252E0000192692 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8B732A601F252E0000192692 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8B732A631F252E0000192692 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B732A651F252E0000192692 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B732A681F252E0000192692 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B732A6A1F252E0000192692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B732A6F1F252E0100192692 /* Tuomas-MNISTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tuomas-MNISTTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B732A731F252E0100192692 /* Tuomas_MNISTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tuomas_MNISTTests.swift; sourceTree = "<group>"; };
+		8B732A751F252E0100192692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B732A581F252E0000192692 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B732A6C1F252E0100192692 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B732A521F252E0000192692 = {
+			isa = PBXGroup;
+			children = (
+				8B732A5D1F252E0000192692 /* Tuomas-MNIST */,
+				8B732A721F252E0100192692 /* Tuomas-MNISTTests */,
+				8B732A5C1F252E0000192692 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B732A5C1F252E0000192692 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B732A5B1F252E0000192692 /* Tuomas-MNIST.app */,
+				8B732A6F1F252E0100192692 /* Tuomas-MNISTTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B732A5D1F252E0000192692 /* Tuomas-MNIST */ = {
+			isa = PBXGroup;
+			children = (
+				8B732A5E1F252E0000192692 /* AppDelegate.swift */,
+				8B732A601F252E0000192692 /* ViewController.swift */,
+				8B732A621F252E0000192692 /* Main.storyboard */,
+				8B732A651F252E0000192692 /* Assets.xcassets */,
+				8B732A671F252E0000192692 /* LaunchScreen.storyboard */,
+				8B732A6A1F252E0000192692 /* Info.plist */,
+			);
+			path = "Tuomas-MNIST";
+			sourceTree = "<group>";
+		};
+		8B732A721F252E0100192692 /* Tuomas-MNISTTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B732A731F252E0100192692 /* Tuomas_MNISTTests.swift */,
+				8B732A751F252E0100192692 /* Info.plist */,
+			);
+			path = "Tuomas-MNISTTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B732A5A1F252E0000192692 /* Tuomas-MNIST */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B732A781F252E0100192692 /* Build configuration list for PBXNativeTarget "Tuomas-MNIST" */;
+			buildPhases = (
+				8B732A571F252E0000192692 /* Sources */,
+				8B732A581F252E0000192692 /* Frameworks */,
+				8B732A591F252E0000192692 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tuomas-MNIST";
+			productName = "Tuomas-MNIST";
+			productReference = 8B732A5B1F252E0000192692 /* Tuomas-MNIST.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B732A6E1F252E0100192692 /* Tuomas-MNISTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B732A7B1F252E0100192692 /* Build configuration list for PBXNativeTarget "Tuomas-MNISTTests" */;
+			buildPhases = (
+				8B732A6B1F252E0100192692 /* Sources */,
+				8B732A6C1F252E0100192692 /* Frameworks */,
+				8B732A6D1F252E0100192692 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B732A711F252E0100192692 /* PBXTargetDependency */,
+			);
+			name = "Tuomas-MNISTTests";
+			productName = "Tuomas-MNISTTests";
+			productReference = 8B732A6F1F252E0100192692 /* Tuomas-MNISTTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B732A531F252E0000192692 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Tuomas Rintamäki";
+				TargetAttributes = {
+					8B732A5A1F252E0000192692 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					8B732A6E1F252E0100192692 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 8B732A5A1F252E0000192692;
+					};
+				};
+			};
+			buildConfigurationList = 8B732A561F252E0000192692 /* Build configuration list for PBXProject "Tuomas-MNIST" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B732A521F252E0000192692;
+			productRefGroup = 8B732A5C1F252E0000192692 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B732A5A1F252E0000192692 /* Tuomas-MNIST */,
+				8B732A6E1F252E0100192692 /* Tuomas-MNISTTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B732A591F252E0000192692 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B732A691F252E0000192692 /* LaunchScreen.storyboard in Resources */,
+				8B732A661F252E0000192692 /* Assets.xcassets in Resources */,
+				8B732A641F252E0000192692 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B732A6D1F252E0100192692 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B732A571F252E0000192692 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B732A611F252E0000192692 /* ViewController.swift in Sources */,
+				8B732A5F1F252E0000192692 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B732A6B1F252E0100192692 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B732A741F252E0100192692 /* Tuomas_MNISTTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B732A711F252E0100192692 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B732A5A1F252E0000192692 /* Tuomas-MNIST */;
+			targetProxy = 8B732A701F252E0100192692 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B732A621F252E0000192692 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B732A631F252E0000192692 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B732A671F252E0000192692 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B732A681F252E0000192692 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B732A761F252E0100192692 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B732A771F252E0100192692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B732A791F252E0100192692 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DF2XK3XWVG;
+				INFOPLIST_FILE = "Tuomas-MNIST/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Tuomas-MNIST";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B732A7A1F252E0100192692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DF2XK3XWVG;
+				INFOPLIST_FILE = "Tuomas-MNIST/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Tuomas-MNIST";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8B732A7C1F252E0100192692 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DF2XK3XWVG;
+				INFOPLIST_FILE = "Tuomas-MNISTTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Tuomas-MNISTTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tuomas-MNIST.app/Tuomas-MNIST";
+			};
+			name = Debug;
+		};
+		8B732A7D1F252E0100192692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DF2XK3XWVG;
+				INFOPLIST_FILE = "Tuomas-MNISTTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Tuomas-MNISTTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tuomas-MNIST.app/Tuomas-MNIST";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B732A561F252E0000192692 /* Build configuration list for PBXProject "Tuomas-MNIST" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B732A761F252E0100192692 /* Debug */,
+				8B732A771F252E0100192692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B732A781F252E0100192692 /* Build configuration list for PBXNativeTarget "Tuomas-MNIST" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B732A791F252E0100192692 /* Debug */,
+				8B732A7A1F252E0100192692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8B732A7B1F252E0100192692 /* Build configuration list for PBXNativeTarget "Tuomas-MNISTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B732A7C1F252E0100192692 /* Debug */,
+				8B732A7D1F252E0100192692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B732A531F252E0000192692 /* Project object */;
+}
