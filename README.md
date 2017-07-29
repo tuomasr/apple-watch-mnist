@@ -6,3 +6,8 @@ The app utilizes Apple's Core ML library and is tested on WatchOS 4.0 Beta 4.
 
 ![Alt text](start.png?raw=true "Start")
 ![Alt text](example.png?raw=true "Success")
+
+Note that most of the code is based on various examples around the web. Most notably:
+https://github.com/happywatch/Draw
+
+https://github.com/r4ghu/iOS-CoreML-MNIST
