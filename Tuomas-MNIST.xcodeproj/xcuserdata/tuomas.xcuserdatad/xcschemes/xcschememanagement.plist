@@ -9,6 +9,34 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>Watch-MNIST (Notification).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Watch-MNIST.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>8B732A5A1F252E0000192692</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8B732A6E1F252E0100192692</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8B7F26E01F27C78500DE7DB7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 	</dict>
 </dict>
 </plist>

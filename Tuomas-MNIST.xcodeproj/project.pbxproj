@@ -13,6 +13,17 @@
 		8B732A661F252E0000192692 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B732A651F252E0000192692 /* Assets.xcassets */; };
 		8B732A691F252E0000192692 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B732A671F252E0000192692 /* LaunchScreen.storyboard */; };
 		8B732A741F252E0100192692 /* Tuomas_MNISTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B732A731F252E0100192692 /* Tuomas_MNISTTests.swift */; };
+		8B732A7F1F25312900192692 /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B732A7E1F25312900192692 /* DrawView.swift */; };
+		8B937DF71F27E00300D6F3AC /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B937DF51F27E00300D6F3AC /* Interface.storyboard */; };
+		8B937DF91F27E00300D6F3AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B937DF81F27E00300D6F3AC /* Assets.xcassets */; };
+		8B937E001F27E00300D6F3AC /* Watch-MNIST Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8B937DFF1F27E00300D6F3AC /* Watch-MNIST Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8B937E051F27E00300D6F3AC /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B937E041F27E00300D6F3AC /* InterfaceController.swift */; };
+		8B937E071F27E00300D6F3AC /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B937E061F27E00300D6F3AC /* ExtensionDelegate.swift */; };
+		8B937E091F27E00300D6F3AC /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B937E081F27E00300D6F3AC /* NotificationController.swift */; };
+		8B937E0B1F27E00300D6F3AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B937E0A1F27E00300D6F3AC /* Assets.xcassets */; };
+		8B937E101F27E00300D6F3AC /* Watch-MNIST.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 8B937DF31F27E00300D6F3AC /* Watch-MNIST.app */; };
+		8B937E191F27E04200D6F3AC /* mnist.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8B937E181F27E04200D6F3AC /* mnist.mlmodel */; };
+		8B937E1B1F27E27000D6F3AC /* mnist.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8B937E1A1F27E27000D6F3AC /* mnist.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +34,46 @@
 			remoteGlobalIDString = 8B732A5A1F252E0000192692;
 			remoteInfo = "Tuomas-MNIST";
 		};
+		8B937E011F27E00300D6F3AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B732A531F252E0000192692 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B937DFE1F27E00300D6F3AC;
+			remoteInfo = "Watch-MNIST Extension";
+		};
+		8B937E0E1F27E00300D6F3AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B732A531F252E0000192692 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B937DF21F27E00300D6F3AC;
+			remoteInfo = "Watch-MNIST";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8B7F27061F27C78500DE7DB7 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				8B937E101F27E00300D6F3AC /* Watch-MNIST.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B937E141F27E00300D6F3AC /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8B937E001F27E00300D6F3AC /* Watch-MNIST Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		8B732A5B1F252E0000192692 /* Tuomas-MNIST.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tuomas-MNIST.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +86,20 @@
 		8B732A6F1F252E0100192692 /* Tuomas-MNISTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tuomas-MNISTTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B732A731F252E0100192692 /* Tuomas_MNISTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tuomas_MNISTTests.swift; sourceTree = "<group>"; };
 		8B732A751F252E0100192692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B732A7E1F25312900192692 /* DrawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
+		8B937DF31F27E00300D6F3AC /* Watch-MNIST.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Watch-MNIST.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B937DF61F27E00300D6F3AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		8B937DF81F27E00300D6F3AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B937DFA1F27E00300D6F3AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B937DFF1F27E00300D6F3AC /* Watch-MNIST Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Watch-MNIST Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B937E041F27E00300D6F3AC /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		8B937E061F27E00300D6F3AC /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		8B937E081F27E00300D6F3AC /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		8B937E0A1F27E00300D6F3AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B937E0C1F27E00300D6F3AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B937E0D1F27E00300D6F3AC /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		8B937E181F27E04200D6F3AC /* mnist.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = mnist.mlmodel; path = ../../mnist/mnist.mlmodel; sourceTree = "<group>"; };
+		8B937E1A1F27E27000D6F3AC /* mnist.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = mnist.mlmodel; path = ../../mnist/mnist.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +117,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8B937DFC1F27E00300D6F3AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -61,6 +132,8 @@
 			children = (
 				8B732A5D1F252E0000192692 /* Tuomas-MNIST */,
 				8B732A721F252E0100192692 /* Tuomas-MNISTTests */,
+				8B937DF41F27E00300D6F3AC /* Watch-MNIST */,
+				8B937E031F27E00300D6F3AC /* Watch-MNIST Extension */,
 				8B732A5C1F252E0000192692 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +143,8 @@
 			children = (
 				8B732A5B1F252E0000192692 /* Tuomas-MNIST.app */,
 				8B732A6F1F252E0100192692 /* Tuomas-MNISTTests.xctest */,
+				8B937DF31F27E00300D6F3AC /* Watch-MNIST.app */,
+				8B937DFF1F27E00300D6F3AC /* Watch-MNIST Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,9 +152,11 @@
 		8B732A5D1F252E0000192692 /* Tuomas-MNIST */ = {
 			isa = PBXGroup;
 			children = (
+				8B937E181F27E04200D6F3AC /* mnist.mlmodel */,
 				8B732A5E1F252E0000192692 /* AppDelegate.swift */,
 				8B732A601F252E0000192692 /* ViewController.swift */,
 				8B732A621F252E0000192692 /* Main.storyboard */,
+				8B732A7E1F25312900192692 /* DrawView.swift */,
 				8B732A651F252E0000192692 /* Assets.xcassets */,
 				8B732A671F252E0000192692 /* LaunchScreen.storyboard */,
 				8B732A6A1F252E0000192692 /* Info.plist */,
@@ -96,6 +173,30 @@
 			path = "Tuomas-MNISTTests";
 			sourceTree = "<group>";
 		};
+		8B937DF41F27E00300D6F3AC /* Watch-MNIST */ = {
+			isa = PBXGroup;
+			children = (
+				8B937DF51F27E00300D6F3AC /* Interface.storyboard */,
+				8B937DF81F27E00300D6F3AC /* Assets.xcassets */,
+				8B937DFA1F27E00300D6F3AC /* Info.plist */,
+			);
+			path = "Watch-MNIST";
+			sourceTree = "<group>";
+		};
+		8B937E031F27E00300D6F3AC /* Watch-MNIST Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8B937E1A1F27E27000D6F3AC /* mnist.mlmodel */,
+				8B937E041F27E00300D6F3AC /* InterfaceController.swift */,
+				8B937E061F27E00300D6F3AC /* ExtensionDelegate.swift */,
+				8B937E081F27E00300D6F3AC /* NotificationController.swift */,
+				8B937E0A1F27E00300D6F3AC /* Assets.xcassets */,
+				8B937E0C1F27E00300D6F3AC /* Info.plist */,
+				8B937E0D1F27E00300D6F3AC /* PushNotificationPayload.apns */,
+			);
+			path = "Watch-MNIST Extension";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,10 +207,12 @@
 				8B732A571F252E0000192692 /* Sources */,
 				8B732A581F252E0000192692 /* Frameworks */,
 				8B732A591F252E0000192692 /* Resources */,
+				8B7F27061F27C78500DE7DB7 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				8B937E0F1F27E00300D6F3AC /* PBXTargetDependency */,
 			);
 			name = "Tuomas-MNIST";
 			productName = "Tuomas-MNIST";
@@ -134,6 +237,40 @@
 			productReference = 8B732A6F1F252E0100192692 /* Tuomas-MNISTTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		8B937DF21F27E00300D6F3AC /* Watch-MNIST */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B937E151F27E00300D6F3AC /* Build configuration list for PBXNativeTarget "Watch-MNIST" */;
+			buildPhases = (
+				8B937DF11F27E00300D6F3AC /* Resources */,
+				8B937E141F27E00300D6F3AC /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B937E021F27E00300D6F3AC /* PBXTargetDependency */,
+			);
+			name = "Watch-MNIST";
+			productName = "Watch-MNIST";
+			productReference = 8B937DF31F27E00300D6F3AC /* Watch-MNIST.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		8B937DFE1F27E00300D6F3AC /* Watch-MNIST Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B937E111F27E00300D6F3AC /* Build configuration list for PBXNativeTarget "Watch-MNIST Extension" */;
+			buildPhases = (
+				8B937DFB1F27E00300D6F3AC /* Sources */,
+				8B937DFC1F27E00300D6F3AC /* Frameworks */,
+				8B937DFD1F27E00300D6F3AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Watch-MNIST Extension";
+			productName = "Watch-MNIST Extension";
+			productReference = 8B937DFF1F27E00300D6F3AC /* Watch-MNIST Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -150,6 +287,12 @@
 					8B732A6E1F252E0100192692 = {
 						CreatedOnToolsVersion = 9.0;
 						TestTargetID = 8B732A5A1F252E0000192692;
+					};
+					8B937DF21F27E00300D6F3AC = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					8B937DFE1F27E00300D6F3AC = {
+						CreatedOnToolsVersion = 9.0;
 					};
 				};
 			};
@@ -168,6 +311,8 @@
 			targets = (
 				8B732A5A1F252E0000192692 /* Tuomas-MNIST */,
 				8B732A6E1F252E0100192692 /* Tuomas-MNISTTests */,
+				8B937DF21F27E00300D6F3AC /* Watch-MNIST */,
+				8B937DFE1F27E00300D6F3AC /* Watch-MNIST Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -190,6 +335,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8B937DF11F27E00300D6F3AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B937DF91F27E00300D6F3AC /* Assets.xcassets in Resources */,
+				8B937DF71F27E00300D6F3AC /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B937DFD1F27E00300D6F3AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B937E0B1F27E00300D6F3AC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -197,8 +359,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B937E191F27E04200D6F3AC /* mnist.mlmodel in Sources */,
 				8B732A611F252E0000192692 /* ViewController.swift in Sources */,
 				8B732A5F1F252E0000192692 /* AppDelegate.swift in Sources */,
+				8B732A7F1F25312900192692 /* DrawView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +374,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8B937DFB1F27E00300D6F3AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B937E1B1F27E27000D6F3AC /* mnist.mlmodel in Sources */,
+				8B937E091F27E00300D6F3AC /* NotificationController.swift in Sources */,
+				8B937E071F27E00300D6F3AC /* ExtensionDelegate.swift in Sources */,
+				8B937E051F27E00300D6F3AC /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -217,6 +392,16 @@
 			isa = PBXTargetDependency;
 			target = 8B732A5A1F252E0000192692 /* Tuomas-MNIST */;
 			targetProxy = 8B732A701F252E0100192692 /* PBXContainerItemProxy */;
+		};
+		8B937E021F27E00300D6F3AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B937DFE1F27E00300D6F3AC /* Watch-MNIST Extension */;
+			targetProxy = 8B937E011F27E00300D6F3AC /* PBXContainerItemProxy */;
+		};
+		8B937E0F1F27E00300D6F3AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B937DF21F27E00300D6F3AC /* Watch-MNIST */;
+			targetProxy = 8B937E0E1F27E00300D6F3AC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -235,6 +420,14 @@
 				8B732A681F252E0000192692 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8B937DF51F27E00300D6F3AC /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B937DF61F27E00300D6F3AC /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -407,6 +600,76 @@
 			};
 			name = Release;
 		};
+		8B937E121F27E00300D6F3AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = DF2XK3XWVG;
+				INFOPLIST_FILE = "Watch-MNIST Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Tuomas-MNIST.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		8B937E131F27E00300D6F3AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = DF2XK3XWVG;
+				INFOPLIST_FILE = "Watch-MNIST Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Tuomas-MNIST.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
+		8B937E161F27E00300D6F3AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DF2XK3XWVG;
+				IBSC_MODULE = Watch_MNIST_Extension;
+				INFOPLIST_FILE = "Watch-MNIST/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Tuomas-MNIST.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		8B937E171F27E00300D6F3AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DF2XK3XWVG;
+				IBSC_MODULE = Watch_MNIST_Extension;
+				INFOPLIST_FILE = "Watch-MNIST/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Tuomas-MNIST.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -426,12 +689,30 @@
 				8B732A7A1F252E0100192692 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B732A7B1F252E0100192692 /* Build configuration list for PBXNativeTarget "Tuomas-MNISTTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8B732A7C1F252E0100192692 /* Debug */,
 				8B732A7D1F252E0100192692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B937E111F27E00300D6F3AC /* Build configuration list for PBXNativeTarget "Watch-MNIST Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B937E121F27E00300D6F3AC /* Debug */,
+				8B937E131F27E00300D6F3AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8B937E151F27E00300D6F3AC /* Build configuration list for PBXNativeTarget "Watch-MNIST" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B937E161F27E00300D6F3AC /* Debug */,
+				8B937E171F27E00300D6F3AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
